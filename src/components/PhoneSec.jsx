@@ -1,11 +1,11 @@
 import React from "react";
-import phoneImage from "../assets/iPhone4.jpg"
+import phoneImage from "../assets/iphone4.jpg"
 
 const PhoneSec = () => {
     return (
         <div className="mt-4 p-10 text-center"
             style={{
-                backgroundImage: `url(${phoneImage})`,
+                backgroundImage: `URL(${phoneImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: '100vh',
